@@ -84,7 +84,7 @@
 /area/ruin/space/has_grav/deepstorage/kitchen)
 "ap" = (
 /obj/structure/reagent_dispensers/beerkeg,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8;
 	icon_state = "scrub_map_on-3"
 	},
@@ -481,7 +481,7 @@
 /area/ruin/space/has_grav/deepstorage/hydroponics)
 "bf" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4;
 	icon_state = "scrub_map_on-3"
 	},
@@ -536,7 +536,7 @@
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/deepstorage/storage)
 "bn" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4;
 	icon_state = "scrub_map_on-3"
 	},
@@ -867,7 +867,7 @@
 /obj/effect/turf_decal/tile/bar{
 	dir = 1
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4;
 	icon_state = "scrub_map_on-3"
 	},
@@ -917,7 +917,7 @@
 	icon_state = "2-4"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4;
 	icon_state = "scrub_map_on-3"
 	},
@@ -1101,7 +1101,7 @@
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8;
 	icon_state = "scrub_map_on-3"
 	},
@@ -1154,7 +1154,7 @@
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/deepstorage)
 "cA" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel/dark,
 /area/ruin/space/has_grav/deepstorage/armory)
 "cB" = (
@@ -1277,7 +1277,7 @@
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/deepstorage)
 "cK" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4;
 	icon_state = "scrub_map_on-3"
 	},
@@ -1389,7 +1389,7 @@
 /area/ruin/space/has_grav/deepstorage)
 "cZ" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1;
 	icon_state = "scrub_map_on-3"
 	},
@@ -1798,7 +1798,7 @@
 "dI" = (
 /obj/structure/bed,
 /obj/item/bedsheet,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/wood,
 /area/ruin/space/has_grav/deepstorage/dorm)
 "dJ" = (
@@ -1954,7 +1954,7 @@
 	icon_state = "4-8"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8;
 	icon_state = "scrub_map_on-3"
 	},
@@ -2179,7 +2179,7 @@
 "ev" = (
 /obj/structure/closet/wardrobe/pjs,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8;
 	icon_state = "scrub_map_on-3"
 	},
@@ -2307,7 +2307,7 @@
 "eG" = (
 /obj/structure/closet/emcloset,
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8;
 	icon_state = "scrub_map_on-3"
 	},
@@ -2547,7 +2547,7 @@
 /area/ruin/space/has_grav/deepstorage/power)
 "fd" = (
 /obj/effect/turf_decal/sand/plating,
-/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer3{
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 8;
 	icon_state = "inje_map-3";
 	id = null
@@ -2702,7 +2702,7 @@
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/deepstorage/power)
 "fx" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer3{
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 8;
 	icon_state = "inje_map-3";
 	id = "o2_in_bunker"
@@ -2797,7 +2797,7 @@
 /area/ruin/space/has_grav/deepstorage)
 "fI" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8;
 	icon_state = "scrub_map_on-3"
 	},
@@ -2841,7 +2841,7 @@
 /turf/open/floor/plasteel,
 /area/ruin/space/has_grav/deepstorage/power)
 "fO" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer3{
+/obj/machinery/atmospherics/components/unary/outlet_injector/on{
 	dir = 8;
 	icon_state = "inje_map-3";
 	id = "n2_in_bunker"

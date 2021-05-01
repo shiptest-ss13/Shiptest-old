@@ -18,7 +18,7 @@
 	locked = 0;
 	pixel_x = -24
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/open/floor/plasteel,
@@ -59,7 +59,7 @@
 	c_tag = "South Barrack - Entrance";
 	network = list("mine")
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -125,7 +125,7 @@
 /obj/effect/mob_spawn/human/corpse{
 	outfit = /datum/outfit/botanist
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel,
 /area/whitesands/colony/greenhouse)
 "dn" = (
@@ -464,7 +464,7 @@
 /turf/open/floor/plating/asteroid/whitesands,
 /area/whitesands/surface/outdoors)
 "iU" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -912,7 +912,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel,
 /area/whitesands/colony/guard)
 "rK" = (
@@ -1111,7 +1111,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer1{
 	dir = 4
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/open/floor/plating,
@@ -1222,7 +1222,7 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/plasteel,
 /area/whitesands/colony)
 "xT" = (
@@ -1345,7 +1345,7 @@
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/red,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
 /obj/item/kirbyplants{
@@ -1391,7 +1391,7 @@
 /turf/open/floor/plasteel,
 /area/whitesands/colony/dormitory/one)
 "AM" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
 /mob/living/simple_animal/hostile/whitesands/survivor,
@@ -1788,7 +1788,7 @@
 "Gi" = (
 /obj/machinery/space_heater,
 /obj/effect/turf_decal/delivery,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
 /turf/open/floor/plasteel,
@@ -1922,7 +1922,7 @@
 /area/whitesands/surface/outdoors)
 "Ii" = (
 /obj/effect/spawner/lootdrop/maintenance,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
 /turf/open/floor/carpet/blue,
@@ -2481,7 +2481,7 @@
 /turf/open/floor/plasteel,
 /area/whitesands/colony/dormitory/one)
 "QW" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
 /turf/open/floor/plasteel,
@@ -2664,7 +2664,7 @@
 /turf/open/floor/plasteel,
 /area/whitesands/colony)
 "VW" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /mob/living/simple_animal/hostile/whitesands/survivor,
 /turf/open/floor/plasteel,
 /area/whitesands/colony/dormitory/one)

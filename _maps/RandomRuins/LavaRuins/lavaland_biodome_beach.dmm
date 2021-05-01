@@ -464,7 +464,7 @@
 /turf/open/floor/pod/light,
 /area/ruin/powered/beach)
 "kh" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
 /turf/open/floor/wood,
@@ -553,7 +553,7 @@
 /turf/open/floor/wood,
 /area/ruin/powered/beach)
 "pE" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /obj/structure/sign/warning/gasmask{
 	pixel_x = -32
 	},
@@ -665,7 +665,7 @@
 /turf/open/floor/plasteel/grimy,
 /area/ruin/powered/beach)
 "sZ" = (
-/obj/machinery/atmospherics/components/unary/outlet_injector/layer3,
+/obj/machinery/atmospherics/components/unary/outlet_injector,
 /turf/open/floor/plating/asteroid/basalt/lava_land_surface,
 /area/lavaland/surface/outdoors/explored)
 "ta" = (
@@ -988,7 +988,7 @@
 /turf/open/floor/plating/beach/sand,
 /area/ruin/powered/beach)
 "Eq" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/wood,
 /area/ruin/powered/beach)
 "EB" = (
@@ -1180,7 +1180,7 @@
 	},
 /area/ruin/powered/beach)
 "JP" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/open/floor/pod/light,
@@ -1208,7 +1208,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 32
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 4
 	},
 /turf/open/floor/wood,
@@ -1217,7 +1217,7 @@
 /obj/structure/urinal{
 	pixel_y = 32
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
 /turf/open/floor/wood,
@@ -1293,7 +1293,7 @@
 /turf/open/floor/plating/beach/sand,
 /area/ruin/powered/beach)
 "OP" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 8
 	},
 /obj/machinery/light,
@@ -1406,7 +1406,7 @@
 /turf/open/floor/wood,
 /area/ruin/powered/beach)
 "TL" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3{
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on{
 	dir = 1
 	},
 /turf/open/floor/wood,
@@ -1547,7 +1547,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer3,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /obj/structure/chair/stool/bar,
 /turf/open/floor/wood,
 /area/ruin/powered/beach)
