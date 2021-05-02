@@ -103,4 +103,10 @@
 	name = "Skeld Starboard Hallway"
 	icon_state = "hallS"
 
+/area/shuttle/amogus/ship/external
+	name = "Skeld External"
+	requires_power = FALSE
+	dynamic_lighting = DYNAMIC_LIGHTING_IFSTARLIGHT
+	icon_state = "space_near"
+
 // AMOGUS end.
