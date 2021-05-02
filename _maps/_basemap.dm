@@ -10,6 +10,7 @@
 		#include "map_files\debug\runtimestation.dmm"
 		#include "map_files\debug\multiz.dmm"
 		#include "map_files\Salvage\Salvage.dmm"
+		#include "map_files\Salvage\Amogus.dmm"
 		#ifdef CIBUILDING
 			#include "templates.dm"
 		#endif
