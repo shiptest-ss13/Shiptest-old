@@ -28,3 +28,4 @@
 	suffix = "oldcodeops.dmm"
 	name = "Strange Infiltrator"
 	description = "A nuclear operative's ship, drifing along the stars. This thing looks like it belongs in ancient times."
+	
