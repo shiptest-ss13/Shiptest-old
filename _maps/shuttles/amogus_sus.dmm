@@ -16,6 +16,7 @@
 "bO" = (/obj/structure/cable/yellow{icon_state = "1-4"},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/hallwaystarboard)
 "bU" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,/obj/machinery/computer/cryopod{pixel_y = 24},/turf/open/floor/wood,/area/shuttle/amogus/ship/crew)
 "ca" = (/obj/structure/cable{icon_state = "1-2"},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/machinery/camera/autoname{dir = 8},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/atmos)
+"co" = (/obj/structure/cable/yellow{icon_state = "1-8"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "cr" = (/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/machinery/airalarm/all_access{dir = 4; pixel_x = -24},/obj/machinery/cryopod/latejoin{dir = 1},/turf/open/floor/wood,/area/shuttle/amogus/ship/crew)
 "cH" = (/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/turf/open/floor/plasteel/white,/area/shuttle/amogus/ship/infirmary)
 "cV" = (/obj/structure/cable{icon_state = "1-2"},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/machinery/door/airlock,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/communications)
@@ -102,6 +103,7 @@
 "kQ" = (/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "1-8"},/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/hallwaystarboard)
 "kV" = (/obj/machinery/light/small{dir = 4},/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/hallwaystarboard)
 "lc" = (/obj/machinery/power/terminal{dir = 1},/obj/structure/cable{icon_state = "0-2"},/obj/structure/cable/yellow{icon_state = "4-8"},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/machinery/power/apc/auto_name/north,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/hallwaystarboard)
+"lk" = (/obj/structure/cable/yellow{icon_state = "2-8"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "ll" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable/yellow{icon_state = "4-8"},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/hallwaystarboard)
 "lt" = (/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 4},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/atmos)
 "mg" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/shields)
@@ -137,6 +139,7 @@
 "pq" = (/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/green/visible,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/cargo)
 "ps" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 8},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/atmos)
 "pt" = (/obj/machinery/atmospherics/components/unary/outlet_injector/on{dir = 1},/turf/open/floor/plating/airless,/area/shuttle/amogus/ship/hallwaystarboard)
+"pC" = (/obj/structure/cable/yellow{icon_state = "2-4"},/obj/structure/cable/yellow{icon_state = "1-4"},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "pF" = (/obj/structure/table/wood,/obj/item/folder/red,/obj/item/toy/plush/hornet/gay{pixel_x = 12; pixel_y = 5},/obj/item/radio/intercom{pixel_y = 32},/turf/open/floor/wood,/area/shuttle/amogus/ship/cameras)
 "pJ" = (/turf/open/floor/plating{icon_state = "platingdmg2"},/area/shuttle/amogus/ship/engine2)
 "pN" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/hallwayport)
@@ -215,6 +218,7 @@
 "xN" = (/obj/effect/turf_decal/lumos/tile/neutral/half{dir = 1},/turf/open/floor/plasteel/white,/area/shuttle/amogus/ship/infirmary)
 "xO" = (/obj/structure/cable{icon_state = "4-8"},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/machinery/light/small,/obj/item/radio/intercom{pixel_y = -32},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/hallwayport)
 "xR" = (/obj/structure/closet/emcloset,/obj/effect/turf_decal/lumos/tile/neutral/half{dir = 4},/obj/machinery/airalarm/all_access{dir = 4; pixel_x = -24},/obj/effect/turf_decal/bot,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/atmos)
+"xU" = (/obj/machinery/power/port_gen/pacman,/obj/structure/cable/yellow{icon_state = "0-2"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "xW" = (/obj/structure/cable{icon_state = "4-8"},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/communications)
 "yb" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 4},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/atmos)
 "yd" = (/obj/machinery/door/airlock/external,/obj/effect/mapping_helpers/airlock/cyclelink_helper,/obj/docking_port/mobile{can_move_docking_ports = 1; dir = 2; dwidth = 29; height = 26; id = "skeld"; port_direction = 8; preferred_direction = 4; undock_roundstart = null; width = 51},/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/hallwayport)
@@ -276,6 +280,7 @@
 "DI" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 1},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/engine2)
 "DK" = (/obj/structure/cable{icon_state = "1-8"},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/hallwaystarboard)
 "DM" = (/obj/effect/turf_decal/bot,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/cargo)
+"DN" = (/obj/structure/cable/yellow{icon_state = "1-4"},/obj/structure/cable/yellow{icon_state = "2-4"},/obj/structure/cable/yellow{icon_state = "4-8"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "DT" = (/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 9},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/cargo)
 "DW" = (/obj/machinery/sleeper,/obj/effect/turf_decal/lumos/tile/neutral/half,/obj/effect/turf_decal/bot,/obj/item/radio/intercom{pixel_y = 32},/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/infirmary)
 "DY" = (/obj/machinery/atmospherics/pipe/simple/cyan/visible{dir = 6},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/atmos)
@@ -304,10 +309,11 @@
 "Fw" = (/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 4},/obj/effect/turf_decal/bot,/obj/structure/closet/crate,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/cargo)
 "Fz" = (/obj/structure/cable{icon_state = "0-2"},/obj/machinery/power/terminal{dir = 1},/obj/machinery/power/apc/auto_name/north,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/engine2)
 "FB" = (/obj/structure/cable{icon_state = "4-8"},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 4},/obj/machinery/door/airlock/public/glass,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/hallwaystarboard)
+"FF" = (/obj/structure/cable/yellow{icon_state = "2-4"},/obj/structure/cable/yellow{icon_state = "1-4"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "FG" = (/obj/machinery/status_display/shuttle,/turf/closed/wall/mineral/titanium,/area/shuttle/amogus/ship/cockpit)
 "FK" = (/obj/machinery/door/airlock/public/glass,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/shields)
 "FO" = (/obj/structure/cable{icon_state = "0-9"},/obj/machinery/power/terminal,/obj/machinery/power/apc/auto_name/south,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/engine1)
-"FT" = (/obj/structure/cable/yellow{icon_state = "1-4"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
+"FT" = (/obj/structure/cable/yellow{icon_state = "1-4"},/obj/structure/cable/yellow{icon_state = "2-4"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "FX" = (/obj/machinery/door/airlock/public/glass,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/communications)
 "Gc" = (/obj/machinery/door/airlock/public/glass,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/engine1)
 "Gw" = (/obj/structure/lattice/catwalk,/turf/open/space/basic,/area/shuttle/amogus/ship/external)
@@ -348,6 +354,7 @@
 "JI" = (/obj/machinery/computer/helm{dir = 8},/obj/effect/turf_decal/lumos/tile/neutral/half{dir = 8},/obj/effect/turf_decal/bot,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/cockpit)
 "JP" = (/obj/structure/cable{icon_state = "4-8"},/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/turbine)
 "JT" = (/obj/structure/table,/obj/machinery/cell_charger,/obj/item/stock_parts/cell/high,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/engine1)
+"JV" = (/obj/machinery/power/port_gen/pacman/super,/obj/structure/cable/yellow,/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "JZ" = (/obj/effect/turf_decal/lumos/tile/neutral/half{dir = 4},/obj/structure/table/glass,/obj/machinery/door/window/eastleft,/obj/item/reagent_containers/glass/bottle/formaldehyde{pixel_x = 5; pixel_y = 8},/obj/item/reagent_containers/glass/bottle{list_reagents = list(/datum/reagent/medicine/thializid = 30); name = "thializid bottle"},/obj/item/reagent_containers/syringe,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/infirmary)
 "Kh" = (/turf/open/floor/plasteel/white,/area/shuttle/amogus/ship/infirmary)
 "Kl" = (/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/item/flashlight/lantern,/turf/open/floor/plasteel/grimy,/area/shuttle/amogus/ship/communications)
@@ -371,7 +378,7 @@
 "Mx" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{dir = 1},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/hallwaystarboard)
 "MG" = (/turf/closed/wall/mineral/titanium,/area/shuttle/amogus/ship/cockpit)
 "MI" = (/obj/structure/cable/yellow{icon_state = "4-8"},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/machinery/door/airlock/engineering,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/turbine)
-"MR" = (/obj/item/am_containment,/obj/item/am_containment,/obj/item/am_containment,/obj/structure/closet/crate/engineering,/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
+"MR" = (/obj/machinery/power/port_gen/pacman/mrs,/obj/structure/cable/yellow{icon_state = "0-2"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "MW" = (/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 4},/obj/machinery/atmospherics/components/binary/pump/on{dir = 1},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/atmos)
 "Nf" = (/turf/closed/wall/mineral/titanium/nodiagonal,/area/shuttle/amogus/ship/crew)
 "Ng" = (/obj/structure/cable/yellow{icon_state = "2-8"},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/turbine)
@@ -417,13 +424,13 @@
 "QT" = (/obj/machinery/power/terminal,/obj/structure/cable/yellow{icon_state = "0-4"},/turf/open/floor/plating,/area/shuttle/amogus/ship/electrical)
 "QW" = (/obj/effect/turf_decal/lumos/tile/neutral/half{dir = 8},/obj/structure/closet/secure_closet/personal/patient,/obj/effect/turf_decal/bot,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/infirmary)
 "QZ" = (/turf/open/floor/plating{icon_state = "platingdmg3"},/area/shuttle/amogus/ship/engine1)
-"Rg" = (/obj/item/am_shielding_container,/obj/item/am_shielding_container,/obj/item/am_shielding_container,/obj/item/am_shielding_container,/obj/item/am_shielding_container,/obj/item/am_shielding_container,/obj/item/am_shielding_container,/obj/item/am_shielding_container,/obj/item/am_shielding_container,/obj/item/am_shielding_container,/obj/structure/closet/crate/engineering,/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
+"Rg" = (/obj/structure/cable/yellow{icon_state = "0-2"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "Ri" = (/turf/open/floor/wood,/area/shuttle/amogus/ship/crew)
 "Rn" = (/turf/closed/wall/mineral/titanium,/area/shuttle/amogus/ship/cameras)
 "Rq" = (/obj/machinery/power/terminal,/obj/structure/cable/yellow{icon_state = "0-8"},/obj/structure/cable/yellow{icon_state = "0-4"},/turf/open/floor/plating,/area/shuttle/amogus/ship/electrical)
 "Rs" = (/turf/closed/wall/mineral/titanium,/area/shuttle/amogus/ship/electrical)
 "Ry" = (/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/machinery/door/airlock/public/glass,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/cafeteria)
-"RE" = (/obj/machinery/power/am_control_unit,/obj/structure/cable/yellow{icon_state = "0-2"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
+"RE" = (/obj/structure/cable/yellow{icon_state = "1-2"},/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "RS" = (/obj/structure/cable/yellow{icon_state = "2-8"},/obj/structure/cable/yellow{icon_state = "2-4"},/turf/open/floor/plating,/area/shuttle/amogus/ship/electrical)
 "RW" = (/turf/open/floor/carpet/blue,/area/shuttle/amogus/ship/cockpit)
 "Sf" = (/obj/structure/cable{icon_state = "4-8"},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/green/visible{dir = 4},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/hallwaystarboard)
@@ -457,6 +464,7 @@
 "Vc" = (/obj/structure/chair/comfy/shuttle{dir = 4},/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/cockpit)
 "Vf" = (/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/hallwayport)
 "Vh" = (/obj/structure/cable{icon_state = "1-4"},/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/turf/open/floor/plasteel,/area/shuttle/amogus/ship/atmos)
+"Vk" = (/obj/machinery/power/port_gen/pacman,/obj/structure/cable/yellow,/turf/open/floor/plating,/area/shuttle/amogus/ship/turbine)
 "Vs" = (/obj/machinery/door/airlock/external,/obj/effect/mapping_helpers/airlock/cyclelink_helper,/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/hallwaystarboard)
 "Vt" = (/obj/effect/turf_decal/lumos/tile/neutral/fullcorner{dir = 8},/obj/effect/turf_decal/bot,/obj/structure/mirror{pixel_x = -24},/obj/structure/sink{dir = 4; pixel_x = -12},/turf/open/floor/plasteel/dark,/area/shuttle/amogus/ship/infirmary)
 "VA" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "2-8"},/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,/obj/structure/cable{icon_state = "2-6"},/turf/open/floor/plasteel,/area/shuttle/amogus/ship/engine1)
@@ -519,14 +527,14 @@ LOLOLOLOLOLOGwhpimhCdbSzYMYYgNiqwtwtGcUGNvWXispNJkitelCYCYBOCYCYQoCYWgiHtTHoPgWg
 LOLOLOLOLOLOGwiMiQweCraOGWgNjmSTSTSTjBxOveNuXkvekAuojYjYUvoqjIoqHIjYjOOVkgOVOVjOFcFcFcmumzQsUFGwGwGwLOLO
 LOLOLOLOLOLOGwiMmXwenhQZwtipnswtwtwtkKTrpOPzTrtsTrTrYdaICYCYqjCYCYqBovxDxDxDxDovWlEdYKetEbiXUFGwGwGwLOLO
 LOLOLOLOEXEXEXEXLvkKrortwtIbVAJTHYggLvJZKhrBshfcDWaTYdYdTCCYDhCYCYCYxDslsUPAaexDUFHJvTtdZOMGMGMGMGLZLOLO
-LOLOLOEXEoUHUHRgMRkKkKwtuzwtnsFOkKLvkKKnKhcHuKhEKhxNtQTrOiCYDhCYTYIaxDjpNzNzjpovuXxDHnMnMGmTvmxhWsLZLZLO
-LOLOLOEXUHUHUHUHUHjNkKLvkKGcvvkKkKhMWnWnVtvGZchEhEKhuHTrTditRyENTdTdjtXwHnHnXwCKCbovWinxMGHRNSRWVcEkLZLZ
-LOLOLOEXUHUHUHUHUHLSeaUHEXusmGRnekrspFWnWnySxwhEAMdjdjTrxRybQLdIznHBpsbFvnvQyfykVhrQyryByUzSAkeGeGVcwjLZ
-LOLOLOEXUHUHUHUHUHGAueueBAJPBTRngjOtWoONRnAtCjFfCLkJQWTrDoWiDwltheDADYEZHnXwmhHCHBznHBcaFGkPeGJmeGVcJILZ
+LOLOLOEXEoUHUHUHUHkKkKwtuzwtnsFOkKLvkKKnKhcHuKhEKhxNtQTrOiCYDhCYTYIaxDjpNzNzjpovuXxDHnMnMGmTvmxhWsLZLZLO
+LOLOLOEXMRUHRgUHUHjNkKLvkKGcvvkKkKhMWnWnVtvGZchEhEKhuHTrTditRyENTdTdjtXwHnHnXwCKCbovWinxMGHRNSRWVcEkLZLZ
+LOLOLOEXFTMgDNlkUHLSeaUHEXusmGRnekrspFWnWnySxwhEAMdjdjTrxRybQLdIznHBpsbFvnvQyfykVhrQyryByUzSAkeGeGVcwjLZ
+LOLOLOEXJVUHJVREUHGAueueBAJPBTRngjOtWoONRnAtCjFfCLkJQWTrDoWiDwltheDADYEZHnXwmhHCHBznHBcaFGkPeGJmeGVcJILZ
 LOLOLOEXUHUHUHREUHbIUHLiSNOPrftGXqGTGTHbRsRsRsRsRsRsRsiYiYhbHhiYudHXMWIhIQMWJlJqHnxDKmMnKxKTeGeGeGVcAELZ
-LOLOLOEXUHUHUHFTMgBRBRBRMINgawRnOtOtNVTFRsOFOeniGJecRsOkYhYhpqYhududjpOnxDjpOnovqAxDHnnxMGODRWRWVcLALZLZ
-LOLOLOEXUHUHUHUHUHTUUHUHEXQjmGRnWoCiqDQxRsQTRqPORSTjgIZihsmNssSroniYErStxDIHSAxDIVxDHnMnMGFazpWZzVLZLZLO
-LOLOLOEXUHUHUHUHUHUHgLXVgLokUrgLXVXVRnRnRskwkwYjZnCvCvSqEfEfpqYhVSiYWpWKxDWOXhxDxDovFKXjZOMGMGMGMGLZLOLO
+LOLOLOEXxUUHxUFTMgBRBRBRMINgawRnOtOtNVTFRsOFOeniGJecRsOkYhYhpqYhududjpOnxDjpOnovqAxDHnnxMGODRWRWVcLALZLZ
+LOLOLOEXFFMgpCcoUHTUUHUHEXQjmGRnWoCiqDQxRsQTRqPORSTjgIZihsmNssSroniYErStxDIHSAxDIVxDHnMnMGFazpWZzVLZLZLO
+LOLOLOEXVkUHVkUHUHUHgLXVgLokUrgLXVXVRnRnRskwkwYjZnCvCvSqEfEfpqYhVSiYWpWKxDWOXhxDxDovFKXjZOMGMGMGMGLZLOLO
 LOLOLOEXEoUHUHwGUHgLgLzckqyhNXFzXTXVYPwrRsjfZGegaKRsjkYsYhAqpqhxdGiYxDxDxDxDxDovZWqODuINXvDuNkGwGwGwLOLO
 LOLOLOLOEXEXEXEXXVgLPUFeFenNaiyLFeTKswzQRsNhSkJwOARsnuSqZSNTpqBbEfFXVKURdwJtxWhyPwmgPwEGPwzDNkGwGwGwLOLO
 LOLOLOLOLOLOGwmUmwYSqsQyQyhtNCNCNCuxlljHCvftUTCvCvCvEQcYtHJHjoKuyQajuCuCuCDFCSFioBoBoBoBDuGyNkGwGwLOLOLO
