@@ -638,7 +638,7 @@ GLOBAL_LIST_EMPTY(the_station_areas)
 		seedStation() //I'm sure we can trust everyone not to insert a 1x1 rooms which loads a landmark which loads a landmark which loads a la...
 
 /datum/controller/subsystem/mapping/proc/get_turf_reservation_at_coords(x, y, z)
-	for(var/datum/turf_reservation/TR as anything() in turf_reservations)
+	for(var/datum/turf_reservation/TR as anything in turf_reservations)
 		if(z < TR.bottom_left_coords[3] || z > TR.top_right_coords[3])
 			continue
 		if(x < TR.bottom_left_coords[1] || x > TR.top_right_coords[1])

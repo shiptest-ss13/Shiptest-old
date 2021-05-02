@@ -97,7 +97,7 @@ SUBSYSTEM_DEF(overmap)
   * * Shuttle: The docking port to create an overmap object for
   */
 /datum/controller/subsystem/overmap/proc/setup_shuttle_ship(obj/docking_port/mobile/shuttle)
-	var/docked_object = get_overmap_object_by_z(get_virtual_z_level(shuttle))
+	var/docked_object = get_overmap_object_by_z(shuttle.get_virtual_z_level())
 	if(docked_object)
 		shuttle.current_ship = new /obj/structure/overmap/ship/simulated(docked_object, shuttle.id, shuttle)
 		if(shuttle.undock_roundstart)
