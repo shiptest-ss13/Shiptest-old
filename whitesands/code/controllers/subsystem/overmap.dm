@@ -340,7 +340,10 @@ SUBSYSTEM_DEF(overmap)
 		ruin_type.load(ruin_turf)
 
 	if(mapgen) //Does AFTER the ruin is loaded so that it does not spawn flora/fauna in the ruin
-		mapgen.generate_terrain(encounter_reservation.area_type.contents)
+		var/list/turfs = list()
+		for(var/turf/T in encounter_reservation.area_type.contents)
+			turfs += T
+		mapgen.generate_terrain(turfs)
 
 	//gets the turf with an X in the middle of the reservation, and a Y that's 1/4ths up in the reservation.
 	var/turf/docking_turf = locate(encounter_reservation.bottom_left_coords[1] + dock_size, encounter_reservation.bottom_left_coords[2] + FLOOR(dock_size / 2, 1), encounter_reservation.bottom_left_coords[3])
