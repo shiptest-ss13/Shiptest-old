@@ -36,7 +36,7 @@
 
 /area/shuttle/get_virtual_z()
 	if(mobile_port)
-		return mobile_port.virtual_z
+		return mobile_port.get_virtual_z_level()
 	return ..()
 
 ////////////////////////////Multi-area shuttles////////////////////////////

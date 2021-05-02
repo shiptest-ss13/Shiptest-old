@@ -105,7 +105,7 @@
 			return FALSE
 
 		var/turf/there = get_turf(H)
-		return (H.z != 0 || (there && ((there.get_virtual_z_level() == here.get_virtual_z_level()))
+		return (H.z != 0 || (there && ((there.get_virtual_z_level() == here.get_virtual_z_level()))))
 
 	return FALSE
 
