@@ -318,7 +318,9 @@ SUBSYSTEM_DEF(explosions)
 		var/flame_dist = dist < flame_range
 		var/throw_dist = dist
 
-		if(dist < devastation_range)
+		if(T.get_virtual_z_level() != z0)
+			dist = EXPLODE_NONE
+		else if(dist < devastation_range)
 			dist = EXPLODE_DEVASTATE
 		else if(dist < heavy_impact_range)
 			dist = EXPLODE_HEAVY
