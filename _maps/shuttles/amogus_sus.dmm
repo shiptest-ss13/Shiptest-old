@@ -1241,6 +1241,13 @@
 /obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel,
 /area/shuttle/amogus/ship/turbine)
+"uj" = (
+/obj/machinery/door/airlock/atmos,
+/obj/machinery/atmospherics/components/binary/pump/layer2{
+	dir = 4
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/amogus/ship/hallwayport)
 "uo" = (
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -1356,6 +1363,13 @@
 	},
 /turf/open/floor/plasteel/dark,
 /area/shuttle/amogus/ship/cameras)
+"vJ" = (
+/obj/machinery/atmospherics/components/unary/tank/air{
+	dir = 4;
+	piping_layer = 2
+	},
+/turf/open/floor/plasteel/dark,
+/area/shuttle/amogus/ship/hallwayport)
 "vQ" = (
 /obj/structure/cable{
 	icon_state = "1-4"
@@ -4081,7 +4095,7 @@ LO
 (14,1,1) = {"
 LO
 LO
-LO
+Gw
 Gw
 Lv
 gN
@@ -4111,8 +4125,8 @@ LO
 LO
 LO
 Gw
-Gw
-kK
+qz
+qz
 kK
 wt
 GW
@@ -4140,8 +4154,8 @@ LO
 LO
 LO
 Gw
-Gw
-Gw
+qz
+vJ
 Lv
 iq
 ST
@@ -4169,8 +4183,8 @@ Kr
 Xf
 Xf
 Xf
-Xf
-Xf
+qz
+uj
 qz
 qm
 tQ
