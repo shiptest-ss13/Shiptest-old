@@ -104,7 +104,7 @@
 /turf/open/floor/plating,
 /area/shuttle/mining/ship/cargo)
 "ci" = (
-/obj/machinery/autolathe/hacked,
+/obj/machinery/autolathe,
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plasteel,
 /area/shuttle/mining/ship/cargo)
