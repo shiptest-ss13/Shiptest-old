@@ -2277,9 +2277,7 @@
 	dir = 4
 	},
 /turf/open/floor/plasteel,
-/area/shuttle/amogus/ship/atmos{
-	dir = 4
-	})
+/area/shuttle/amogus/ship/atmos)
 "IC" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/lumos/tile/neutral/fullcorner{
