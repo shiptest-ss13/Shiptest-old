@@ -341,7 +341,7 @@ SUBSYSTEM_DEF(overmap)
 
 	if(mapgen) //Does AFTER the ruin is loaded so that it does not spawn flora/fauna in the ruin
 		var/list/turfs = list()
-		for(var/turf/T in encounter_reservation.area_type.contents)
+		for(var/turf/T in encounter_reservation.area_type)
 			turfs += T
 		mapgen.generate_terrain(turfs)
 
