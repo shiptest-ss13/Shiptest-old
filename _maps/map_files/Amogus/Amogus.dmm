@@ -1,5 +1,5 @@
 "a" = (/turf/open/space/basic,/area/space)
-"G" = (/obj/docking_port/stationary{dir = 2; dwidth = 29; height = 26; id = "whiteship_home"; name = "SS13: Auxiliary Dock, Station-Port"; roundstart_template = /datum/map_template/shuttle/amogus; width = 51},/turf/open/space/basic,/area/space)
+"G" = (/obj/docking_port/stationary{dir = 2; dwidth = 50; height = 100; id = "whiteship_home"; name = "SS13: Auxiliary Dock, Station-Port"; roundstart_template = /datum/map_template/shuttle/amogus; width = 100},/turf/open/space/basic,/area/space)
 
 (1,1,1) = {"
 aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
