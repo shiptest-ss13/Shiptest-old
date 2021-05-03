@@ -252,6 +252,10 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/amogus/ship/cafeteria)
+"ex" = (
+/obj/structure/tank_dispenser,
+/turf/open/floor/plasteel,
+/area/shuttle/amogus/ship/atmos)
 "eE" = (
 /obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,
 /turf/open/floor/plasteel/grimy,
@@ -636,6 +640,8 @@
 /obj/item/radio/intercom{
 	pixel_y = 32
 	},
+/obj/item/stack/sheet/mineral/plasma/fifty,
+/obj/structure/closet/crate,
 /turf/open/floor/plating,
 /area/shuttle/amogus/ship/turbine)
 "ll" = (
@@ -1263,6 +1269,8 @@
 /obj/effect/turf_decal/lumos/tile/red/checker,
 /obj/structure/table,
 /obj/item/toy/redbutton,
+/obj/item/storage/box/cups,
+/obj/item/storage/box/cups,
 /turf/open/floor/plasteel/white,
 /area/shuttle/amogus/ship/cafeteria)
 "ux" = (
@@ -1326,8 +1334,15 @@
 	},
 /turf/open/floor/plasteel,
 /area/shuttle/amogus/ship/gunnery)
+"vk" = (
+/obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/plasteel,
+/area/shuttle/amogus/ship/atmos)
 "vn" = (
-/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/layer_manifold,
 /turf/open/floor/plasteel,
 /area/shuttle/amogus/ship/atmos)
 "vv" = (
@@ -2151,10 +2166,10 @@
 /turf/closed/wall/mineral/titanium,
 /area/shuttle/amogus/ship/cafeteria)
 "GT" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /obj/machinery/airalarm/all_access{
 	pixel_y = 24
 	},
+/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel,
 /area/shuttle/amogus/ship/atmos)
 "GV" = (
@@ -2179,6 +2194,7 @@
 /obj/machinery/light/small{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,
 /turf/open/floor/plasteel,
 /area/shuttle/amogus/ship/atmos)
 "Hh" = (
@@ -2213,6 +2229,17 @@
 	},
 /turf/open/floor/plasteel,
 /area/shuttle/amogus/ship/atmos)
+"HE" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/effect/mapping_helpers/simple_pipes/supply/hidden/layer2,
+/obj/effect/mapping_helpers/simple_pipes/scrubbers/hidden/layer4,
+/obj/effect/turf_decal/lumos/tile/red/checker,
+/obj/structure/table,
+/obj/machinery/chem_dispenser/drinks,
+/turf/open/floor/plasteel/white,
+/area/shuttle/amogus/ship/cafeteria)
 "HI" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -2278,6 +2305,11 @@
 	},
 /turf/open/floor/plasteel,
 /area/shuttle/amogus/ship/atmos)
+"IB" = (
+/obj/item/stack/sheet/mineral/uranium/five,
+/obj/structure/closet/crate,
+/turf/open/floor/plating,
+/area/shuttle/amogus/ship/turbine)
 "IC" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/turf_decal/lumos/tile/neutral/fullcorner{
@@ -2294,6 +2326,9 @@
 "IQ" = (
 /obj/machinery/computer/atmos_control/tank/nitrogen_tank{
 	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/green/visible{
+	dir = 9
 	},
 /turf/open/floor/plasteel,
 /area/shuttle/amogus/ship/atmos)
@@ -2703,6 +2738,7 @@
 /obj/machinery/atmospherics/pipe/layer_manifold{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/green/visible,
 /turf/open/floor/plating,
 /area/shuttle/amogus/ship/atmos)
 "Oe" = (
@@ -3910,7 +3946,7 @@ mX
 AE
 wt
 Lv
-UH
+IB
 RE
 Qf
 Mg
@@ -4427,7 +4463,7 @@ ew
 jN
 CY
 el
-Uv
+HE
 CY
 CY
 CY
@@ -4634,7 +4670,7 @@ ux
 xD
 CL
 Ia
-DA
+ex
 HB
 DA
 HX
@@ -4692,7 +4728,7 @@ OV
 xD
 sl
 jp
-Xw
+vk
 bF
 EZ
 Ih
