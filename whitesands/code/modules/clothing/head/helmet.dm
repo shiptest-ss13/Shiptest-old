@@ -30,3 +30,11 @@
 	desc = "A generic white envirohelmet with a secondary blue."
 	icon_state = "solgov_envirohelm"
 	item_state = "solgov_envirohelm"
+
+/obj/item/clothing/head/helmet/durathread
+	name = "Operator helmet"
+	desc = "A robust combat helmet commonly employed by Syndicate forces, regardless of alignment."
+	icon_state = "operator"
+	item_state = "operator"
+
+
