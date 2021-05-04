@@ -31,10 +31,12 @@
 	icon_state = "solgov_envirohelm"
 	item_state = "solgov_envirohelm"
 
-/obj/item/clothing/head/helmet/durathread
-	name = "Operator helmet"
+/obj/item/clothing/head/helmet/operator
+	name = "\improper Operator helmet"
 	desc = "A robust combat helmet commonly employed by Syndicate forces, regardless of alignment."
 	icon_state = "operator"
 	item_state = "operator"
+	icon = 'whitesands/icons/obj/clothing/hats.dmi'
+	mob_overlay_icon = 'whitesands/icons/mob/clothing/head.dmi'
 
 
