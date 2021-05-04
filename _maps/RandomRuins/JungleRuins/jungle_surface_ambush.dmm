@@ -1,0 +1,33 @@
+"a" = (/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"b" = (/obj/effect/mob_spawn/human/corpse/whitesands,/obj/effect/decal/cleanable/blood/bubblegum,/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"d" = (/obj/structure/barricade/sandbags,/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"f" = (/obj/item/ammo_casing/ballistic/win308,/obj/item/ammo_casing/ballistic/win308{dir = 5; pixel_x = 7},/obj/item/ammo_casing/ballistic/win308{dir = 4; pixel_x = -7; pixel_y = 5},/mob/living/simple_animal/hostile/nanotrasen/ranged,/turf/open/floor/plating/dirt/jungle,/area/space)
+"j" = (/obj/structure/barricade/sandbags,/turf/open/floor/plating/dirt/jungle,/area/space)
+"k" = (/obj/item/storage/toolbox/syndicate,/obj/item/paper{info = "Shit. Got cutoff from the rest of my squad in an ambush. Only person with me is one of the spoiled-sweet officers. She's got manners but that's not going to get her anywhere.  Maybe I'll get a wage bonus so I can actually pay off my debt if I make sure she comes back alive."; name = "poorly written note"},/turf/open/floor/plating/dirt/jungle,/area/space)
+"r" = (/obj/effect/decal/cleanable/blood/tracks{icon_state = "u_guilty_l"},/turf/open/floor/plating/dirt/jungle,/area/space)
+"s" = (/mob/living/simple_animal/hostile/whitesands/ranged/hunter{faction = list(Deathsquad)},/turf/open/floor/plating/dirt/jungle,/area/space)
+"t" = (/obj/item/ammo_box/magazine/ebr,/obj/item/ammo_box/magazine/ebr{pixel_x = -9; pixel_y = 13},/obj/item/ammo_casing/ballistic/win308,/obj/item/ammo_casing/ballistic/win308{dir = 5; pixel_x = 3},/turf/open/floor/plating/dirt/jungle,/area/space)
+"u" = (/mob/living/simple_animal/hostile/whitesands/ranged/hunter{faction = list(Deathsquad)},/obj/effect/decal/cleanable/blood/tracks{dir = 9},/turf/open/floor/plating/dirt/jungle,/area/space)
+"x" = (/turf/open/floor/plating/dirt/jungle,/area/space)
+"z" = (/obj/effect/mob_spawn/human/corpse/syndicatesoldier,/obj/item/gun/ballistic/automatic/ebr,/obj/item/ammo_casing/ballistic/win308,/obj/item/ammo_casing/ballistic/win308{dir = 4; pixel_x = 6},/turf/open/floor/plating/dirt/jungle,/area/space)
+"A" = (/obj/item/ammo_casing/ballistic/win308,/obj/item/ammo_casing/ballistic/win308{dir = 5; pixel_x = 9; pixel_y = 5},/obj/effect/decal/cleanable/blood/tracks{icon_state = "splatter3"},/obj/item/reagent_containers/hypospray/medipen/bonefixingjuice,/turf/open/floor/plating/dirt/jungle,/area/space)
+"B" = (/obj/structure/barricade/sandbags,/turf/open/floor/plating/dirt/dark,/area/space)
+"C" = (/obj/effect/mob_spawn/human/corpse/whitesands/survivor,/obj/effect/decal/cleanable/blood/bubblegum,/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"G" = (/obj/item/radio,/obj/item/organ/tail/cat,/obj/effect/decal/cleanable/blood/bubblegum,/turf/open/floor/plating/dirt/jungle,/area/space)
+"M" = (/obj/effect/mob_spawn/human/corpse/whitesands/survivor/hunter,/obj/effect/decal/cleanable/blood/bubblegum,/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"Q" = (/obj/structure/flora/tree/jungle/small,/turf/open/floor/plating/dirt/jungle/dark,/area/space)
+"V" = (/obj/effect/decal/cleanable/blood/drip,/turf/open/floor/plating/dirt/jungle,/area/space)
+"Y" = (/obj/effect/decal/cleanable/blood/tracks{dir = 8},/turf/open/floor/plating/dirt/jungle,/area/space)
+
+(1,1,1) = {"
+aaaaaaaaa
+aaaaQbaaQ
+QbaMaaQaa
+aQCaQaQaa
+aaaaaaaaQ
+xjjBddaaa
+xjztkjaaa
+xjAfuYYxx
+axsxGjxrV
+addddjxxV
+"}
