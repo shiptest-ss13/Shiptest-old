@@ -15,7 +15,7 @@
 	description = "Ook. Ooh Ooh Aah. AAH. OOK OOK OOK. OOK OOK AAH AAAH AAAAAAAAAAAAAAAH!"
 	suffix = "jungle_surface_monkies.dmm"
 
-/datum/map_template/ruin/jungle/solgov_crash
+/datum/map_template/ruin/jungle/ambush
 	name = "Ambush"
 	id = "jungle-ambush"
 	description = "THEY'RE IN THE TREES!"
