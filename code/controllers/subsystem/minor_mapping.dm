@@ -24,7 +24,7 @@ SUBSYSTEM_DEF(minor_mapping)
 			num_mice -= 1
 			M = null
 
-/datum/controller/subsystem/minor_mapping/proc/place_satchels(amount=5)
+/datum/controller/subsystem/minor_mapping/proc/place_satchels(amount=3)
 	var/list/turfs = find_satchel_suitable_turfs()
 
 	while(turfs.len && amount > 0)

@@ -368,7 +368,7 @@
 	min_val = 0
 
 /datum/config_entry/number/smuggler_satchels
-	config_entry_value = 5
+	config_entry_value = 3
 	min_val = 0
 
 /datum/config_entry/number/bombcap
